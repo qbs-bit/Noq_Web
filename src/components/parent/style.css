@@ -1,0 +1,60 @@
+/* Note: Main styled file */
+
+/* Note: Using external fornt family */
+@font-face {
+    font-family: poppinsFont;
+    src: url('../font-assets/Poppins/Poppins-Regular.ttf');
+}
+
+/* Note: For universal styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppinsFont !important;
+}
+
+/* Note: For smooth scrolling */
+html {
+    scroll-behavior: smooth !important;
+}
+
+/* Note: Styling for nav links */
+
+/* Note: For large or medium devices devices */
+#nav-links-full-screen {
+    text-decoration: none;
+    color: white;
+}
+
+/* Note: For mobile or small devices */
+#nav-links-mobile-screen {
+    text-decoration: none;
+    color: black;
+}
+
+#container::before {
+    content: "";
+    width: 80%;
+    height: 20vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url('./images/Topbar-banner.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+@media screen and ( max-width : 500px ) {
+    #container::before {
+        content: "";
+        width: 70%;
+        height: 25vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-image: url('./images/Mobile-size-banner.png') !important;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}

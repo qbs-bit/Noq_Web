@@ -1,0 +1,9 @@
+/* Note: Alternate styling of GridScreen component...! */
+
+#card-container {
+    background:linear-gradient(to bottom, #6f42c1, #e75788);
+}
+
+#card-container:hover {
+    box-shadow: 0 40px 40px 0 rgba(233, 103, 147, 0.59);
+}

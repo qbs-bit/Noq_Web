@@ -1,0 +1,9 @@
+/* Note: Alternate styling of FooterScreen component */
+
+#footer-container {
+    background:linear-gradient(to bottom, #6f42c1, #e75788);
+}
+
+#footer-links {
+    text-decoration: none;
+}

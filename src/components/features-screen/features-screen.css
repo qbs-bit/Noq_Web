@@ -1,0 +1,11 @@
+/* Note: Alternate styling of FeaturesScreen component */
+
+#card-root {
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
+    transition: margin 1s;
+}
+
+#card-root:hover {
+    box-shadow: 0 40px 40px 0 rgba(233, 103, 147, 0.59);
+    margin-top: 5px;
+}
